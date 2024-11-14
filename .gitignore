@@ -1,0 +1,6 @@
+### Data ###
+*.csv
+
+### Temp Files ###
+*.ipynb_checkpoints
+
