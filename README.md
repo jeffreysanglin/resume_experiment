@@ -11,8 +11,11 @@ II. Design and Determining Sample
 You can read the full rundown on the XP design [here](https://docs.google.com/spreadsheets/d/1w9lm5mPkVdQvBfVVBUPMmL8xUj5n0weZRhK8kbSiFyQ/edit?gid=0#gid=0). I'll share a quick summary below.
 
 **My Hypotheses**
-H0 -	The resume and cover letter provided by Haley Stock perform the same as my own self-written resume and cover letter.
-Ha -	The professionally-written resume and cover letter have a different interview invitation rate than self-written resume and cover letter.
+| Hypothesis | Description |
+|------------|-------------|
+| H0         | The resume and cover letter provided by Haley Stock perform the same as my own self-written resume and cover letter. |
+| Ha         | The professionally-written resume and cover letter have a different interview invitation rate than the self-written resume and cover letter. |
+
 I wanted to show whether one performed better than the other, so I chose a two-tailed XP. However, there were quite a few uncontrollable variables at play, that I accounted for in my design such as industry trends or even application platforms (lever, greenhouse, etc.)
 
 I knew sample size would be the hardest part, so I considered the factors that were most important to me:
@@ -36,10 +39,14 @@ Why was this? A few posibilities came to mind:
 Ultimately, I want to showcase my work history and abilities to companies that will value them. I also want my own values to shine through. Since there is not a stat sig difference in response rates, I will use my own resume and add in any bits I like from the pro-written one.
 
 # Reflections
-## What worked well...
+**What worked well...**
+
 I. It eased my mind that at least on the surface, my self-written resume isn't a 100% stinker :D.
+
 II. I built a python class that will help me with future "proportion" tests and XP's. 
 
-## What I'd do differently next time...
+**What I'd do differently next time...**
+
 I. I'd do a bit more work on the pre-analysis. While both the self and pro resumes didn't perform signifantly different, it would be better to know what actually does change response rates for my job applications.
+
 II. The sample size was ultimately the problem. It's possible a different approach, such as diff in diff, would have fit the use-case better. It may have also helped control for other unseen issues that could not be controlled in the AB test.
